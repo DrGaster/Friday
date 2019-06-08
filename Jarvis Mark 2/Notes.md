@@ -6,3 +6,5 @@ stock market
 smoothly transitioning voice during tanslation
 translating for each region of a country with proper or given dialect of user
 open google and enter query in the search bar and retrieve relevant data
+
+--This is a note from Gary
