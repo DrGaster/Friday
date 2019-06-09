@@ -1,3 +1,6 @@
+def command(cmd):
+    return [word for word in cmd.split()]
+
 user = input("What is your name? ")
 
 class Jarvis:
@@ -10,9 +13,12 @@ class Jarvis:
     def assist(self):
         cmd = True
         while cmd:
-            cmd = input("What can I do for you? ")
+            cmd = command(input("What can I do for you? "))
+
             if cmd == "exit":
                 cmd = False
+                break
+            if cmd == "google":
                 break
 
 
