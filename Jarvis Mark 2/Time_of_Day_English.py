@@ -16,4 +16,4 @@ elif hour >=11 and hour < 17:
 elif hour >=17 and hour < 22:
     print("Good Evening,", username, "it is", current_time)
 elif hour >= 22 or hour < 7:
-    print(username, "the current time is", current_time + ". it is late and you should go and get some rest.")
+    print(username, ", it is", current_time + " and it is late. You should go and get some rest.")
